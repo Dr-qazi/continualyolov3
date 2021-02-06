@@ -1,0 +1,107 @@
+i processed the data  in cpu .. let  me show u 
+Understood? yes but we have to run on gpu right?
+ Yeah.. Ur training will be on gpu
+then why we process data on cpu? 
+Its the same.. since its not parallel process.. I collect the information from ../data/train.txt file with this.. 
+
+Oh 
+You mean you are splitting the dataset with this only right?
+yeah !!!
+so it not training right nmow.. No .. it is collecting the info of dataset now. 
+but you run the file normal_trainng.py. i was thinking it is for normal training right?
+
+That part collect the trainset and testset 
+I understand but it is supposed to go ahead after that, so you mean the training wil start on gpu but only the trainset and testset is running on cu
+Yes!!!
+it would be faster if gpu!!! anyway :(
+
+You are student of which department? 
+Electroninc and computer engineering
+Ok!! thats nice.. Do u know when gpu works fast? When it comes to parallel processeing .. in serial processing gpu have no superiority over cpu
+Oh!! I dont klnow that!!!
+Yeah!
+
+You wanna pray? ok im going to finish this first
+ 
+Let it train till tommorow on car clas
+!!listen ---- You have started a empty model with default initialization
+so there will  be no reult that u desire of .. in normal object detection the model is  loaded with pretrained weights on imagenet .. 
+what u can do here is u take the weights of coco dataset. and start the training for car cls .. like u did here .. 
+-------
+wait and watch..
+
+
+listen 
+let me load the weights for u .I didnt write the code to load weights in that way ..  
+What is weight type u have collected?
+.CKPT .. How many classes? 80 ok 
+
+
+
+listens .. just copy the coco.names file in the data directory 
+YES
+WAIT
+
+What is the error here? weights and the code model are not compitable .... i  think ... ok download the weights form the link i m providing u 
+copy paste here
+ok
+ wait 
+great .. let me take over u 
+
+make a txt file of 80 classes names 
+
+let find these weights i think i have 
+thisy feiale right? yeash 
+
+let me copy it
+
+https://pjreddie.com/media/files/yolov3.weights
+
+let me take over 
+ its around 1:24AM5 min 
+
+Hi!!! Bro, Can i leave lab
+
+
+u can leave .. i will continue ur work 
+
+Thanks!!! Please put it on car class training i will text you from whatsapp once i a reach room... ok 
+
+U want to say anything?
+
+
+
+U can see the print out there ?  only the last layer will always dropout ... when u inherit weight of model that has a different classes .. like car and person is a model .. ther
+is only two classes. so when u inhereit the weight the last layer of 80 clas model will drop out .. 
+
+
+
+
+
+
+
+Fine ... continue ok ... bye for  now .. !!!!!!!!!  thanks..mention not.. 
+
+
+Note:
+
+I started the distilled training again.. i updated some parts of the code...
+
+I train increemntal for 3 epochs and evaluted both class.. is 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

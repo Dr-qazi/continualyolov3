@@ -1,0 +1,40 @@
+brother 
+use another video .. the video u r using is tilted.. it need to be rotated by 90 degree. 
+OK! Wait
+
+
+Brother .. 
+Speed of this will not matter. U can use any other model .. using the checkpoints of this model  traiing..  There a a model in my github.. u can tray 
+with that.. u will get better speed. 
+
+
+Note: 
+If u give square shape images to ur model. it will give better result. 
+
+This one you mean 
+
+#PASCAL_VOC_ALL_CLASSES = './data/pascal_voc07_cls_names_car_person.txt'
+
+i did it just no
+w
+yeash 
+
+well!!! i did it now to givve
+why ide  u 
+
+do that!!! 
+
+I was afraid!!! 
+
+wait!!
+
+after i wanted to put on normal training i wanted to see the classes so it was showing me all the classes then i tried to make some changes 
+so what i did i changed the whole calsses names to preson and car classes names only thats wqhy i changed,, i didint changed it when i was teraining car
+and person on ioncremnta;l or traning car only !!!
+good.. now train wither car and person.. keep it as it is .. fine
+
+but it is still showing bike and bus and train.. is that okay?
+.. i filtered them in the next part. check if it contains at least one object of car or person
+
+yes there is person or either car in the same image 
+so it means it shows the bounding box of all objects when we want to show the person or car in the image.. yeah 
